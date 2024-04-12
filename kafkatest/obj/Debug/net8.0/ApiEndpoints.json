@@ -1,0 +1,64 @@
+[
+  {
+    "ContainingType": "kafka.Controllers.KafkaController",
+    "Method": "SendMessage",
+    "RelativePath": "api/Kafka",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "kafka.Controllers.KafkaController",
+    "Method": "ReceiveMessage",
+    "RelativePath": "api/Kafka",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "kafkatest.Controllers.ProducerController",
+    "Method": "Post",
+    "RelativePath": "api/Producer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "car",
+        "Type": "kafkatest.Models.CarDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "kafkatest.Controllers.ProducerController",
+    "Method": "data",
+    "RelativePath": "api/Producer/partition-0",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "kafkatest.Controllers.ProducerController",
+    "Method": "StopConsumer",
+    "RelativePath": "api/Producer/stop",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

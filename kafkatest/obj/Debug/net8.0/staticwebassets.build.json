@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "M4O1tPCBBjQcfFej7oBWqeZgKXqjQC1+sFbOW7znWM8=",
+  "Source": "kafkatest",
+  "BasePath": "_content/kafkatest",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\harsh.desai\\source\\repos\\kafka\\kafka\\kafka.csproj",
+      "Version": 2,
+      "Source": "kafka",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
