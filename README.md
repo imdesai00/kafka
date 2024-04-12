@@ -1,7 +1,6 @@
 
 # Kafka Producer-Consumer Project with JSON Data
-
-        This project demonstrates the use of Apache Kafka for building a messaging system with a producer-consumer architecture. The producer component is responsible for generating data in JSON format and sending it to Kafka topics, while the consumer component consumes this JSON data and displays it to the user.
+This project demonstrates the use of Apache Kafka for building a messaging system with a producer-consumer architecture. The producer component is responsible for generating data in JSON format and sending it to Kafka topics, while the consumer component consumes this JSON data and displays it to the user.
 
 
 ## Features
